@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab435211-ff25-48ee-b316-8b3db650c23f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Dockerfile.stable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Jenkinsfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Jenkinsfile.stable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copy-version.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docker-compose.dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../e2e/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../e2e/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../e2e/tsconfig.e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../localcerts/unafe.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../localcerts/unafe.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../nginx-fe.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../nginx-stable.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proxy.conf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scripts/hook-scripts/pre-push" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scripts/set-git-hook.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/core/core.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/core/i18n/una-missing-translation-handler.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/core/una-language-selector/una-language-selector.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/core/una-language-selector/una-language-selector.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/core/user/user.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/core/user/user.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/components.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/icdcode-mapping.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/encompassing-encounter/una-cda-json-assigned-entity.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/encompassing-encounter/una-cda-json-encompassing-encounter.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/encompassing-encounter/una-cda-json-encounter-participant.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/encompassing-encounter/una-cda-json-responsible-party.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-author.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-body.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-code.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-field.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-header.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-hl7-datatypes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-hl7localheader.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-instance-identifier-helper.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-instance-identifier-helper.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-instance-identifier-roots.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-instance-identifier.model.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-instance-identifier.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-meta-query.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-organization.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-patient.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-personidentity.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-personname.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-print.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-query.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-root-extension-if.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-rootextension.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-signature-author.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-timerange.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json-value.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/cdajson/una-cda-json.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/delivery/kanta-error-codes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/delivery/una-deliver-form-receiver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/delivery/una-deliver-state.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/delivery/una-delivery-data-element.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/delivery/una-delivery-error-response.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/delivery/una-delivery-request.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/delivery/una-delivery-response.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/delivery/una-kanta-exception.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/delivery/una-ui-deliver-state.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/httpClient/http-client-response-type.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/questions/form-cda-info.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/questions/form-metadata.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/questions/form-question-one-of.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/questions/form-questions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/questions/form-schema.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/questions/una-form-question.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/una-content-to-sign.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/una-context.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/una-current-signature-section-author.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/una-form-dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/una-form-record.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/una-form.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/una-language-option.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/una-language.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/una-meta-query-obsolete-encounter-event-toggle.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/una-new-form.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/una-patient-data.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/una-print-type-data.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/una-saved-form.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/models/una-user.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/services.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/una-context-parameter-names.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/una-deliver-state-translations.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/una-form-list-sorting-label-names.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/una-form-names.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/una-form-state-translations.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/una-form-states.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/una-print-choice.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/una-tag-names.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/lib/una-widget-names.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/shared/loading-spinner/loading-spinner.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/shared/loading-spinner/loading-spinner.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/shared/loading-spinner/loading-spinner.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/shared/shared.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/shared/una-date.pipe.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/shared/una-datetime.pipe.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/shared/una-modal/una-modal-without-backdrop/una-modal-without-backdrop/una-modal-without-backdrop.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/shared/una-modal/una-modal-without-backdrop/una-modal-without-backdrop/una-modal-without-backdrop.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/shared/una-modal/una-modal-without-backdrop/una-modal-without-backdrop/una-modal-without-backdrop.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/shared/una-modal/una-modal-without-backdrop/una-modal-without-backdrop/una-modal-without-backdrop.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/shared/una-modal/una-modal.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/shared/una-modal/una-modal.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/shared/una-modal/una-modal.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/shared/validators/f122Validator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/shared/validators/m1Validator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/shared/validators/m2Validator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/shared/validators/sv10Validator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/shared/validators/sv67Validator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/shared/validators/sv7Validator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/shared/validators/una-form-validators.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/page-not-found/page-not-found.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/page-not-found/page-not-found.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/page-not-found/page-not-found.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/forms/m-form-validator.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/forms/sv-form-validator.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/forms/sv10-form-question.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/forms/sv6-form-question.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/forms/sv7-form-question.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/forms/sv7-form-validator.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/forms/trafi-form-validator.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/test/cda-json-mocks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/test/context-mock.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/test/duplicateQuestions-mock.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/test/f122-cda-json-mocks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/test/kanta-forms-test-mocks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/test/una-f122-test-mocks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/test/una-m2-test-mocks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/test/una-mock-services.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/test/una-sv10-test-mocks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/test/una-sv7-test-mocks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/test/una-test-mocks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/test/widgetSplit-mock.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-cdajson-parser.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-cdajson-parser.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-cdajson.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-cdajson.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-context-parser-service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-context.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-context.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-date.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-date.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-existing-forms.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-existing-forms.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-form-api.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-form-api.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-form-error-message.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-form-filter.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-form-filter.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-form-print.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-form-question.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-form-question.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-form-rule.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-form-validator-creator.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-form-validator.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-form-validator.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-form-value.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-form-value.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-kanta-error.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-kanta-error.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-language-option.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-local-storage.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-local-storage.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-navigate.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-save-kanta-form.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-single-form.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-single-form.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-translate.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/services/una-translate.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-context-details/una-context-details.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-context-details/una-context-details.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-context-details/una-context-details.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-existing-forms-section/confirm-form/confirm-form.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-existing-forms-section/confirm-form/confirm-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-existing-forms-section/confirm-form/confirm-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-existing-forms-section/una-existing-form-preview/una-existing-form-preview.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-existing-forms-section/una-existing-form-preview/una-existing-form-preview.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-existing-forms-section/una-existing-form-preview/una-existing-form-preview.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-existing-forms-section/una-existing-forms-section.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-existing-forms-section/una-existing-forms-section.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-existing-forms-section/una-existing-forms-section.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-forms-section/una-forms-section.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-forms-section/una-forms-section.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-main-section/una-main-section.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-main-section/una-main-section.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-main.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-main/una-main.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-main/una-main.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-new-form-section/una-new-form-section.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-new-form-section/una-new-form-section.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-new-form-section/una-new-form-section.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/delete-form/delete-form.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/delete-form/delete-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/delete-form/delete-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/deliver-form/deliver-form.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/deliver-form/deliver-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/deliver-form/deliver-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/discard-form/discard-form.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/discard-form/discard-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/discard-form/discard-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/form-preview/form-preview.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/form-preview/form-preview.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/form-preview/form-preview.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/print-view/print-view.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/print-view/print-view.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/print-view/print-view.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/print-view/print-view.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/replace-form/replace-form.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/replace-form/replace-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/replace-form/replace-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/replace-retry-form/replace-retry-form.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/replace-retry-form/replace-retry-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/replace-retry-form/replace-retry-form.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/replace-retry-form/replace-retry-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/select-context/select-context.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/select-context/select-context.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/select-context/select-context.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/una-form-question/una-form-question.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/una-form-question/una-form-question.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/una-form-question/una-form-question.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/una-form-question/una-icd-autocomplete/una-icd-autocomplete.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/una-form-question/una-icd-autocomplete/una-icd-autocomplete.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/una-form-question/una-icd-autocomplete/una-icd-autocomplete.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/una-form-question/una-language-option.directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/una-form-sidebar/una-form-sidebar.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/una-form-sidebar/una-form-sidebar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/una-form-sidebar/una-form-sidebar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/una-print-options/una-print-options.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/una-print-options/una-print-options.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/una-print-options/una-print-options.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/una-single-form.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/una-single-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/una-single-form.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/app/una-main/una-single-form/una-single-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/i18n/fi.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/i18n/sv.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/images/favico-icons/f122-favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/images/favico-icons/f123-favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/images/favico-icons/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/images/favico-icons/m1-favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/images/favico-icons/m2-favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/images/favico-icons/m3-favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/images/favico-icons/nt-favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/images/favico-icons/psye-favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/images/favico-icons/psyo-favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/images/favico-icons/sv10-favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/images/favico-icons/sv6-favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/images/favico-icons/sv67-favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/images/favico-icons/sv7-favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/images/favico-icons/sv75-favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/images/favico-icons/sv97-favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/images/flags/english.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/images/flags/finnish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/images/flags/swedish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/images/una-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/assets/js/scs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/environments/environment.local.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/environments/environment.localhttps.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/environments/environment.stable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/environments/environment.stag.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/context-details.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/existing-forms.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/f122-cdajson-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/f122-deliver-form-receivers-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/f122-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/f123-cdajson-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/f123-deliver-form-receivers-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/f123-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/form-list.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/language-options.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/m1-cdajson-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/m1-deliver-form-receivers-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/m1-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/m2-cdajson-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/m2-deliver-form-receivers-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/m2-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/m3-cdajson-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/m3-deliver-form-receivers-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/m3-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/nt-cdajson-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/nt-deliver-form-receivers-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/nt-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/patient.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/psye-cdajson-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/psye-deliver-form-receivers-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/psye-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/psyo-cdajson-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/psyo-deliver-form-receivers-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/psyo-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/sv10-cdajson-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/sv10-deliver-form-receivers-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/sv10-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/sv6-cdajson-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/sv6-deliver-form-receivers-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/sv6-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/sv6-preview.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/sv67-cdajson-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/sv67-deliver-form-receivers-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/sv67-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/sv7-cdajson-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/sv7-deliver-form-receivers-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/sv7-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/sv75-cdajson-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/sv75-deliver-form-receivers-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/sv75-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/sv97-cdajson-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/sv97-deliver-form-receivers-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/mocks/sv97-mock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/typings.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/version.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tslint.json" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="46" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/models/DataDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+              <folding>
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/models/DataDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/MainController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="236" />
+    <option name="y" value="85" />
+    <option name="width" value="1400" />
+    <option name="height" value="960" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sandbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555054266203" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sandbox" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="app.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab435211-ff25-48ee-b316-8b3db650c23f" name="Default Changelist" comment="" />
+      <created>1555048058199</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555048058199</updated>
+      <workItem from="1555048062690" duration="5087000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5087000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-3" y="31" width="1926" height="1052" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16613418" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" weight="0.43379977" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32938644" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33369213" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/models/DataDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sandbox</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29152542" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
